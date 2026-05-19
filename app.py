@@ -168,4 +168,4 @@ else:
 # ── Data table ────────────────────────────────────────────────────────────────
 
 st.subheader("Cleaned Data (filtered)")
-st.dataframe(df_view.head(50), use_container_width=True)
+st.dataframe(df_view.head(), use_container_width=True)
